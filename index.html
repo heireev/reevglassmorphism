@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real Glassmorphsim</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="js/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="content">
+        <h2>01</h2>
+        <h3>Card One</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Impedit natus, architecto esse maiores commodi laudantium vero neque ullam dolor perspiciatis molestias debitis quisquam numquam inventore, ipsa. Explicabo, repellat consequuntur aliquam.</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="content">
+        <h2>02</h2>
+        <h3>Card Two</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Impedit natus, architecto esse maiores commodi laudantium vero neque ullam dolor perspiciatis molestias debitis quisquam numquam inventore, ipsa. Explicabo, repellat consequuntur aliquam.</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+        <div class="card">
+      <div class="content">
+        <h2>03</h2>
+        <h3>Card Three</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Impedit natus, architecto esse maiores commodi laudantium vero neque ullam dolor perspiciatis molestias debitis quisquam numquam inventore, ipsa. Explicabo, repellat consequuntur aliquam.</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="js/vanilla-tilt.js"></script>
+  <script>
+    VanillaTilt.init(document.querySelectorAll(".card"), {
+    max: 25,
+    speed: 400,
+    glare: true,
+    "max-glare": 1,
+  });
+  </script>
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
